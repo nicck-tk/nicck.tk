@@ -1,0 +1,7 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm install -g roco
+      - roco deploy
+      - ./deploy_prod.sh
