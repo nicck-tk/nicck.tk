@@ -2,6 +2,6 @@ deployment:
   production:
     branch: master
     commands:
+      - printf "\nHost 130.255.188.231\n  Port 2600\n  User root" >> ~/.ssh/config
       - npm install -g roco
       - roco deploy
-      - ./deploy_prod.sh

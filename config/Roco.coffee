@@ -1,5 +1,5 @@
 set 'application', 'nicck.tk'
-set 'hosts', ['nck-nano']
+set 'hosts', ['130.255.188.231']
 set 'keepReleases', 3
 set 'repository', 'https://github.com/nicck/nicck.tk'
 set 'wwwPath', -> "/usr/share/nginx/www/#{roco.application}"
