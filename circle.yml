@@ -10,3 +10,6 @@ deployment:
     commands:
       - printf "\nHost nck-nano\n  Port 2600\n  User root" >> ~/.ssh/config
       - ./node_modules/.bin/roco deploy
+notify:
+  webhooks:
+    - url: https://api.kato.im/rooms/FA8BB2D54A05478EB4004D803CC60430AE52A05B916B160D97095B5DFCF08713/circleci
